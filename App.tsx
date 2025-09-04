@@ -1,11 +1,12 @@
+
 import React, { useState, useMemo } from 'react';
-import { GolfDataProvider, useGolfData } from './hooks/useGolfData';
-import Dashboard from './components/Dashboard';
-import CourseSetup from './components/CourseSetup';
-import RoundView from './components/RoundView';
-import AnalyticsView from './components/AnalyticsView';
-import { Course, Round } from './types';
-import { JpLogo } from './components/icons';
+import { GolfDataProvider, useGolfData } from './hooks/useGolfData.ts';
+import Dashboard from './components/Dashboard.tsx';
+import CourseSetup from './components/CourseSetup.tsx';
+import RoundView from './components/RoundView.tsx';
+import AnalyticsView from './components/AnalyticsView.tsx';
+import { Course, Round } from './types.ts';
+import { JpLogo } from './components/icons.tsx';
 
 type View = 'dashboard' | 'setup' | 'round' | 'analytics';
 

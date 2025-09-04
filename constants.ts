@@ -1,5 +1,5 @@
 
-import { ShotOutcome } from './types';
+import { ShotOutcome } from './types.ts';
 
 export const GOLF_CLUBS = [
     'Driver', '3-Wood', '5-Wood', 'Hybrid',
